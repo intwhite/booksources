@@ -1,0 +1,28 @@
+{
+    "name": "新笔趣阁",
+    "url": "www.weishijing66.com",
+    "version": 100,
+
+    "search": {
+        "url": "http://www.weishijing66.com/search/@post->searchkey=${key}&searchtype=articlename",
+        "charset": "utf-8",
+        "list": "table.grid > tr#nr",
+        "name": "td.odd > a",
+        "detial": "td > a"
+    },
+
+    "detial": {
+        "name": ".info > h1"
+    },
+
+    "catalog": {
+        "list": ".box_con > .list",
+        "orderBy": 0,
+        "chapter": "a",
+        "name": "a"
+    },
+
+    "chapter": {
+        "content": ".content > p"
+    }
+}
